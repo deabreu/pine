@@ -1,6 +1,6 @@
 [project]
-scalaVersion   = "2.13.0"
-scalaJsVersion = "0.6.28"
+scalaVersion   = "2.13.1"
+scalaJsVersion = "1.0.1"
 scalaOptions   = [
     "-deprecation",                      # Emit warning and location for usages of deprecated APIs.
     "-encoding", "utf-8",                # Specify character encoding used by source files.
@@ -55,8 +55,8 @@ targets = ["js", "jvm"]
 sources   = ["src/test/scala"]
 targets   = ["js", "jvm"]
 scalaDeps = [
-  ["org.scalatest" , "scalatest" , "3.0.8" ],
-  ["org.scalacheck", "scalacheck", "1.14.0"]
+  ["org.scalatest" , "scalatest" , "3.1.1" ],
+  ["org.scalacheck", "scalacheck", "1.14.3"]
 ]
 
 [module.pine.jvm]
@@ -67,7 +67,7 @@ sources = ["src/main/scala-jvm"]
 root    = "src/main/scala-js"
 sources = ["src/main/scala-js"]
 scalaDeps = [
-  ["org.scala-js", "scalajs-dom", "0.9.7"]
+  ["org.scala-js", "scalajs-dom", "1.0.0"]
 ]
 
 [module.pine.test.js]
