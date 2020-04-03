@@ -51,11 +51,11 @@ testFrameworks = [
 [module.pine]
 root    = "src/main/scala"
 sources = ["src/main/scala"]
-targets = ["js", "jvm", "native"]
+targets = ["jvm", "native"]
 
 [module.pine.test]
 sources   = ["src/test/scala"]
-targets   = ["js", "jvm"]
+targets   = ["jvm"]
 scalaDeps = [
   ["org.scalatest" , "scalatest" , "3.1.1" ],
   ["org.scalacheck", "scalacheck", "1.14.3"]
