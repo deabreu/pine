@@ -2,7 +2,7 @@ kind: pipeline
 name: default
 steps:
   - name: build
-    image: tindzk/seed:0.1.5
+    image: tindzk/seed:0.1.6-18-gdffd692
     commands:
       - apk add --no-cache yarn
       - yarn add jsdom
